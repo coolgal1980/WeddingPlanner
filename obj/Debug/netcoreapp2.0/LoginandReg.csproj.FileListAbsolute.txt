@@ -1,0 +1,15 @@
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\LoginandReg\bin\Debug\netcoreapp2.0\LoginandReg.deps.json
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\LoginandReg\bin\Debug\netcoreapp2.0\LoginandReg.runtimeconfig.json
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\LoginandReg\bin\Debug\netcoreapp2.0\LoginandReg.runtimeconfig.dev.json
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\LoginandReg\bin\Debug\netcoreapp2.0\LoginandReg.dll
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\LoginandReg\bin\Debug\netcoreapp2.0\LoginandReg.pdb
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\LoginandReg\obj\Debug\netcoreapp2.0\LoginandReg.csproj.CoreCompileInputs.cache
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\LoginandReg\obj\Debug\netcoreapp2.0\LoginandReg.AssemblyInfoInputs.cache
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\LoginandReg\obj\Debug\netcoreapp2.0\LoginandReg.AssemblyInfo.cs
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\LoginandReg\obj\Debug\netcoreapp2.0\LoginandReg.dll
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\LoginandReg\obj\Debug\netcoreapp2.0\LoginandReg.pdb
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\WeddingPlanner\obj\Debug\netcoreapp2.0\LoginandReg.csproj.CoreCompileInputs.cache
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\WeddingPlanner\obj\Debug\netcoreapp2.0\LoginandReg.AssemblyInfoInputs.cache
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\WeddingPlanner\obj\Debug\netcoreapp2.0\LoginandReg.AssemblyInfo.cs
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\WeddingPlanner\obj\Debug\netcoreapp2.0\LoginandReg.dll
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\WeddingPlanner\obj\Debug\netcoreapp2.0\LoginandReg.pdb

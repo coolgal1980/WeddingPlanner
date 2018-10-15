@@ -1,0 +1,46 @@
+@model WeddingPlanner.Models.AddWeddingData
+@{
+    ViewData["Title"] = "Add Event";
+}
+<div class="row">
+    <div class="col-md-6 offset-3 mt-5">
+        <h1 class="text-center">@ViewData["Title"]</h1>
+        <form asp-action="AddWeddingData" asp-controller="Home" method="POST">
+            <div class="form-group">
+                <div class="bg-danger">
+                    <span asp-validation-for="wedder_one"></span>
+                </div>
+                <br>
+                <input asp-for="wedder_one" class="form-control" placeholder="Wedder One">
+            </div>
+            <div class="form-group">
+                <div class="bg-danger">
+                    <span asp-validation-for="wedder_two"></span>
+                </div>
+                <br>
+                <input asp-for="wedder_two" class="form-control" placeholder="Wedder Two">
+            </div>
+            <div class="form-group">
+                <div class="bg-danger">
+                    <span asp-validation-for="event_date"></span>
+                </div>
+                <br>
+                <input asp-for="event_date" class="form-control" placeholder="Event Date">
+            </div>
+            <div class="form-group">
+                <div class="bg-danger">
+                    <span asp-validation-for="address"></span>
+                </div>
+                <br>
+                <input asp-for="address" class="form-control" placeholder="Address">
+            </div>
+            <input type="submit" class="btn btn-round btn-info" value="Add Event">
+        </form>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-md-6 offset-3">
+        <a class="btn btn-round btn-danger" asp-area="" asp-controller="Home" asp-action="Dashboard">Go Back</a>
+    </div>
+</div>

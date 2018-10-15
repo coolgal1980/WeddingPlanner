@@ -1,0 +1,73 @@
+﻿@model WeddingPlanner.Models.Wedding
+<div class="row">
+    <div class="col-md-10 offset-1 mt-5">
+        <div class="card card-nav-tabs card">
+                <div class="card-header card-header-info">
+                    <h1 class="text-center">Planner: @ViewBag.name.first_name</h1>
+                </div>
+                <div class="card-body ">
+                    <table class="table table-hover">
+                        <thead class="bg-info thead-info">
+                            <tr class="text-white">
+                                <th>Wedders</th>
+                                <th>Event Date</th>
+                                <th>Address</th>
+                                <th>Guests</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{var rsvp = false;}
+                            @foreach (var w in ViewBag.Weddings)
+                            {
+                                @foreach (var g in w.WGuest)
+                                     {
+                                        if (g.user_id == ViewBag.thisUser) 
+                                        {
+                                            rsvp = true;
+                                        }
+                                     }
+                                <tr>
+                                    <td class="text-info"><a href="/Wedding/@w.wedding_id">@w.wedder_one &amp; @w.wedder_two</a></td>
+                                    <td>@w.wedding_date</td>
+                                    <td>@w.wedding_address</td>
+                                    <td>@w.WGuest.Count</td>
+                                    <td>
+                                        @if(w.user_id == ViewBag.thisUser)
+                                        {
+                                            <form action="delete" method="POST">
+                                                <input type="hidden" name="id" value="@w.wedding_id">
+                                                <input type="submit" value="Delete" class="btn btn-round btn-danger">
+                                            </form>
+                                        }
+                                     
+                                        else if (rsvp)
+                                        {
+                                            <form action="unrsvp" method="POST">
+                                                <input type="hidden" name="id" value="@w.wedding_id">
+                                                <input type="submit" value="UNRSVP" class="btn btn-round btn-success">
+                                            </form>
+                                        }
+                                        else
+                                        {
+                                            <form asp-action="RSVP" asp-controller="Home" method="POST">
+                                                <input type="hidden" name="id" value="@w.wedding_id">
+                                                <input type="submit" value="RSVP" class="btn btn-round btn-success">
+                                            </form>
+                                        }
+                                    </td>
+                                </tr>    
+                            }
+                        </tbody>
+                    </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 offset-3">       
+        <a class="btn btn-round btn-danger" asp-area="" asp-controller="Home" asp-action="Logout">Logout</a>
+        <a class="btn btn-round btn-primary" asp-area="" asp-controller="Home" asp-action="AddWedding">Add Event</a>       
+    </div>
+</div>

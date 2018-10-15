@@ -1,0 +1,10 @@
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\WeddingPlanner\obj\Debug\netcoreapp2.0\WeddingPlanner.csproj.CoreCompileInputs.cache
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\WeddingPlanner\obj\Debug\netcoreapp2.0\WeddingPlanner.AssemblyInfoInputs.cache
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\WeddingPlanner\obj\Debug\netcoreapp2.0\WeddingPlanner.AssemblyInfo.cs
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\WeddingPlanner\bin\Debug\netcoreapp2.0\WeddingPlanner.deps.json
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\WeddingPlanner\bin\Debug\netcoreapp2.0\WeddingPlanner.runtimeconfig.json
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\WeddingPlanner\bin\Debug\netcoreapp2.0\WeddingPlanner.runtimeconfig.dev.json
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\WeddingPlanner\bin\Debug\netcoreapp2.0\WeddingPlanner.dll
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\WeddingPlanner\bin\Debug\netcoreapp2.0\WeddingPlanner.pdb
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\WeddingPlanner\obj\Debug\netcoreapp2.0\WeddingPlanner.dll
+C:\Work\Z\CodingDojo\Class3-CSharp\CProjs\WeddingPlanner\obj\Debug\netcoreapp2.0\WeddingPlanner.pdb

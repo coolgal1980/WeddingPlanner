@@ -1,0 +1,30 @@
+@model WeddingPlanner.Models.Wedding
+<div class="row">
+    <div class="col-md-10 offset-1 mt-5">
+        <div class="card card-nav-tabs card">
+                <div class="card-header card-header-info">
+                    <h1 class="text-center">@ViewBag.wedding.wedder_one & @ViewBag.wedding.wedder_two Wedding</h1>
+                    <h2 class="text-center">@ViewBag.wedding.wedding_date</h2>
+                </div>
+                <div class="card-body ">
+                    <table class="table table-hover">
+                        <thead class="bg-info thead-info">
+                            <tr class="text-white">
+                                <th>Guests:</th>                               
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{var rsvp = false;}
+                            @foreach (var g in ViewBag.wedding.WGuest)
+                            {                               
+                                <tr>
+                                    <td class="text-info">@g.WGuest.first_name @g.WGuest.last_name</td>                                
+                                </tr>    
+                            }
+                        </tbody>
+                    </table>
+            </div>
+        </div>
+    </div>
+</div>
+
